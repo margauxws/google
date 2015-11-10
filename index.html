@@ -22,24 +22,24 @@
         //set some default options
         var mapOptions = {
           zoom: 10, //very close
-          center: new google.maps.LatLng(35.3116478,-119.4001344) //cooper union
+          center: new google.maps.LatLng(35.723902, -117.323873) //cooper union
         };
 
         //create a new map, and have it populate the #map-canvas html element
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
             var buildings = [{
-                  position: new google.maps.LatLng(35.175216, -118.930489),
+                  position: new google.maps.LatLng(35.707037, -117.344445),
                   map: map,
                   title:"Blue Wastewater Pit"
               },
               {
-                  position: new google.maps.LatLng(35.129939, -118.856994),
+                  position: new google.maps.LatLng(35.708994, -117.382563),
                   map: map,
                   title:"Dried Wastewater Pit"
               },
               {
-                  position: new google.maps.LatLng(35.326538, -118.960397),
+                  position: new google.maps.LatLng(35.743548, -117.380564),
                   map: map,
                   title:"Small Wastewater Pit"
             }];
