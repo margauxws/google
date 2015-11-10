@@ -28,7 +28,15 @@
         //create a new map, and have it populate the #map-canvas html element
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
+        var position = new google.maps.LatLng(35.358657, -119.099846);
 
+          new google.maps.Marker({
+            position: position,
+            map: map,
+            title: "Alluvian Fan"
+          })
+        ]
+        }
       }
 
       //add the map to the page, when the page is ready
